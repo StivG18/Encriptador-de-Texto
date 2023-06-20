@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Encrypter</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="./styles/reset.css">
+        <link rel="stylesheet" href="./styles/styles.css">
+        <link rel="icon" type="image/png" href="img/icono_ca.png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet"href="https://fontlibrary.org//face/minecraftia" type="text/css"/>
+<script src="https://kit.fontawesome.com/56435b6968.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            
+          <div class="container_ico" >
+            <img src="img/Alura.png" alt="logo Alura" width="100" height="50">
+          
+            <div class="icon">
+                <button id="btnicon" class="icon" style="border: none; background: transparent; padding: 0;">
+                  <img id="iconImage" src="img/fondoDay.png" alt="logo Alura" width="100" height="100">
+                </button>
+                <p id="modeText"> </p>
+              </div>
+              
+            
+          </div>
+        </header>
+        <main>
+            <section class="input">
+                <textarea class="input__text" name="input-text" id="input-text" autocomplete="off" placeholder="Ingrese el texto aquí"></textarea>
+                <div>
+                    <p>Sólo letras minúsculas y sin acentos</p>
+                    <div class="input__buttons">
+                        <button class="input__buttons__button" onclick="encrypt()">Encriptar</button>
+                        <button class="input__buttons__button button--main" onclick="desencrypt()">Desencriptar</button>
+                    </div>
+                </div>
+            </section>
+            <section class="output">
+                <div class="output__not-found" id="not-found">
+                    <img id="dollImage" class="output__not-found__doll" src="img/buscando.png" alt="Buscando">
+                    <div class="output__not-found__text-box">
+                        <p>Ningún mensaje fue encontrado</p>
+                        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                    </div>
+                </div>
+                <div class="output__result" id="result">
+                    <p class="output__result__text" id="output-text"></p>
+                    <div class="output__result__buttons">
+                        <button class="output__result__buttons__button" onclick="copy()">Copiar</button>
+                        <button class="output__result__buttons__button button--accent-2" id="paste" onclick="paste()">Pegar</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-content">
+              <p>
+                Diseño por Stiven Guerrero
+                <a target="_blank" href="https://github.com/StivG18"><i class="fa-brands fa-github"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/stiven-guerrero-developer/"><i class="fa-brands fa-linkedin"></i></a>
+              </p>
+            </div>
+          </footer>
+        <script src="js/main.js"></script>
+    </body>
+</html>
