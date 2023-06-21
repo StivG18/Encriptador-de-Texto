@@ -5,6 +5,7 @@
 ## **DESCRIPCION DEL PROYECTO**
 Este proyecto es un challenge propuesto por Alura y Oracle Next Education
 
+El proyecto se centra en desarrollar un programa en JavaScript que permita el cifrado de texto, añadiendo una capa adicional de seguridad, el proceso de cifrado implica generar una versión encriptada del texto proporcionado, la cual puede ser copiada y utilizada en el futuro, asegurando así la confidencialidad de la información.
 
 El proyecto fue desarrollado en dos modos: light y dark. El modo light muestra una interfaz clara y brillante, mientras que el modo dark ofrece una apariencia más oscura y elegante.
 
