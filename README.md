@@ -6,10 +6,10 @@
 Este proyecto es un challenge propuesto por Alura y Oracle Next Education
 
 ## **DISEÑO PC**
-![Diseño_Pc](./img/Muestra.gif)
 ***Light Mode***
-![Diseño_Pc](./img/MuestraTodcctal1.png)
+![Diseño_Pc](./img/MuestraTotal1.png)
 ******
 ***Dark Mode***
-![Diseño_Pc](./img/MuestraTdddotal2.png)
+![Diseño_Pc](./img/MuestraTotal2.png)
 ## **DISEÑO MOVIL**
+![Diseño_Mv](./img/MuestraMovil1.png)  ![Diseño_Mv](./img/MuestraMovil2.png)
